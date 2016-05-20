@@ -1,0 +1,1 @@
+module.exports = require("npm:to-vfile@1.0.0/lib/to-vfile.js");

@@ -1,0 +1,1 @@
+module.exports = require("npm:unherit@1.0.4/index");

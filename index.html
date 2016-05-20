@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		html, body { position: relative; height: 100%; margin: 0; padding: 0; }
+		#source { box-sizing: border-box; float: left; padding: 2rem; font-style: 1.5rem; font-family: Monaco; width: 50%; position: relative; height: 100vh; border: 0; border-right: 1px solid #ccc; resize: none; max-width: 50%; }
+		#source:focus { outline: 0; }
+		#preview { float: left; width: 50%; box-sizing: border-box; padding: 2rem; font-family: Helvetica; background-color: #fafafa; position: relative; height: 100vh; line-height: 1.5; overflow: scroll; }
+		blockquote { font-family: Georgia; line-height: 1.6; font-style: italic; }
+		img { max-height: 235px; display: block; }
+	</style>
+  <script src="./jspm_packages/system.js"></script>
+  <script src="./config.js"></script>
+  <script src="./build.js"></script>
+  <script>
+    System.import('index').then(function (index) {
+      return index.main();
+    }).catch(console.error.bind(console));
+  </script>
+</head>
+<body>
+	<textarea id="source"># September 9, 2001.
+
+**Gary and I** were skating at a hospital on top of a huge hill overlooking a valley.
+_An ambulance came and took out a dead woman._
+
+> They hadn't closed her eyes yet. She must have died on the way. A car full of family and friends came in with the ambulance.
+
+## They were all crying and hugging each other
+
+One woman screamed hysterically and grabbed at the woman's body asking her to wake up. I had to tell Gary that her soul went to Heaven.
+
+![](asset://MwABobac_UHTgU75MwLR)
+
+But today, there is a God. And he has a plan for him.
+
+![](youtube://MWK5G8ioqs4)
+
+![](vimeo://62918161)
+
+</textarea>
+	<div id="preview">
+	</div>
+</body>
+</html>

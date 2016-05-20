@@ -1,0 +1,1 @@
+module.exports = require("npm:irregular-plurals@1.1.0/irregular-plurals.json!systemjs-json");

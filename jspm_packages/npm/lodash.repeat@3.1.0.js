@@ -1,0 +1,1 @@
+module.exports = require("npm:lodash.repeat@3.1.0/index");

@@ -1,0 +1,1 @@
+module.exports = require("npm:character-reference-invalid@1.0.0/index");

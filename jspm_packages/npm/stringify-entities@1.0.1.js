@@ -1,0 +1,1 @@
+module.exports = require("npm:stringify-entities@1.0.1/index");

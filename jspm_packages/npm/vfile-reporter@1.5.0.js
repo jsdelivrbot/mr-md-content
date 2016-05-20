@@ -1,0 +1,1 @@
+module.exports = require("npm:vfile-reporter@1.5.0/index");

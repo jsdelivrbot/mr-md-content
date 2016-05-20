@@ -1,0 +1,1 @@
+module.exports = require("npm:exit-hook@1.1.1/index");

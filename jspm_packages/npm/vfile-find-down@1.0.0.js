@@ -1,0 +1,1 @@
+module.exports = require("npm:vfile-find-down@1.0.0/index");

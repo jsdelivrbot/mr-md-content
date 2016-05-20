@@ -1,0 +1,1 @@
+module.exports = require("npm:remark@3.2.2/index");

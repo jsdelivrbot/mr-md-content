@@ -1,0 +1,1 @@
+module.exports = require("npm:ansi-escapes@1.1.1/index");

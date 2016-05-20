@@ -1,0 +1,1 @@
+module.exports = require("npm:trim-lines@1.0.0/index");

@@ -1,0 +1,1 @@
+module.exports = require("npm:restore-cursor@1.0.1/index");

@@ -1,0 +1,1 @@
+module.exports = require("npm:markdown-table@0.4.0/index");

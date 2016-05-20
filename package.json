@@ -1,0 +1,28 @@
+{
+  "name": "mr-md-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jspm": "^0.16.11"
+  },
+  "jspm": {
+    "format": "es6",
+    "dependencies": {
+      "remark": "npm:remark@^3.2.2",
+      "remark-html": "npm:remark-html@^2.0.2",
+      "unist-util-visit": "npm:unist-util-visit@^1.0.0",
+      "whatwg-fetch": "npm:whatwg-fetch@^0.9.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@5.8.25",
+      "babel-runtime": "npm:babel-runtime@5.8.25",
+      "core-js": "npm:core-js@1.2.1"
+    }
+  }
+}
